@@ -63,7 +63,7 @@ public class Main extends Application {
             @Override
             public void handle(ActionEvent e) {
                 actiontarget.setFill(Color.FIREBRICK);
-                actiontarget.setText("EN OSDAAAAAAA");
+                actiontarget.setText("EN OSAAAAAAA");
             }
         });
 
