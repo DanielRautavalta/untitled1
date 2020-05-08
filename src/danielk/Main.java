@@ -62,8 +62,13 @@ public class Main extends Application {
 
             @Override
             public void handle(ActionEvent e) {
-                actiontarget.setFill(Color.FIREBRICK);
-                actiontarget.setText("EN OSAAAAAAA");
+                if (userTextField.getText().equals("John") && pwBox.getText().equals("Doe")) {
+                        System.out.println("Welcome");
+                    } else {
+                        actiontarget.setFill(Color.FIREBRICK);
+                        actiontarget.setText("Virheellinen käyttäjätunnus tai salasana.");
+                    }
+
             }
         });
 
